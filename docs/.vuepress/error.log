@@ -1,0 +1,62 @@
+2022/10/03 11:19:45 [notice] 81202#0: signal process started
+2022/10/03 19:17:22 [notice] 155281#0: signal process started
+2022/10/03 19:24:06 [notice] 156269#0: signal process started
+2022/10/03 19:24:06 [notice] 156282#0: signal process started
+2022/10/03 19:24:20 [notice] 156343#0: signal process started
+2022/10/03 20:33:54 [notice] 217147#0: signal process started
+2022/10/03 20:33:54 [alert] 217147#0: kill(78679, 1) failed (3: No such process)
+2022/10/03 20:38:11 [warn] 217769#0: conflicting server name "124.220.189.82" on 0.0.0.0:80, ignored
+2022/10/03 20:38:11 [notice] 217769#0: signal process started
+2022/10/03 20:38:11 [alert] 217769#0: kill(78679, 1) failed (3: No such process)
+2022/10/06 14:16:00 [warn] 776208#0: conflicting server name "124.220.189.82" on 0.0.0.0:80, ignored
+2022/10/06 14:19:25 [emerg] 776708#0: unknown directive "search.html" in /www/server/nginx/conf/nginx.conf:64
+2022/10/06 14:22:24 [emerg] 777136#0: unknown directive "search" in /www/server/nginx/conf/nginx.conf:64
+2022/10/06 14:27:09 [emerg] 777833#0: unknown directive "search" in /www/server/nginx/conf/nginx.conf:64
+2022/10/06 14:39:29 [emerg] 779639#0: unknown directive "search" in /www/server/nginx/conf/nginx.conf:64
+2022/10/06 15:10:47 [emerg] 784165#0: unknown directive "search" in /www/server/nginx/conf/nginx.conf:64
+2022/10/06 15:11:05 [emerg] 784232#0: unknown directive "search" in /www/server/nginx/conf/nginx.conf:64
+2022/10/06 15:56:45 [emerg] 790934#0: unknown directive "search" in /www/server/nginx/conf/nginx.conf:64
+2022/10/06 16:00:41 [emerg] 791530#0: no "events" section in configuration
+2022/10/06 16:03:10 [emerg] 791899#0: unknown directive "search" in /www/server/nginx/conf/nginx.conf:64
+2022/10/06 16:03:38 [emerg] 791957#0: unknown directive "search" in /www/server/nginx/conf/nginx.conf:64
+2022/10/06 16:08:19 [emerg] 792647#0: unknown directive "search" in /www/server/nginx/conf/nginx.conf:64
+2022/10/06 16:19:39 [emerg] 794316#0: unknown directive "search" in /www/server/nginx/conf/nginx.conf:64
+2022/10/06 16:26:57 [emerg] 795380#0: unknown directive "search" in /www/server/nginx/conf/nginx.conf:64
+2022/10/06 16:35:49 [emerg] 796683#0: unknown directive "search" in /www/server/nginx/conf/nginx.conf:64
+2022/10/06 17:38:29 [emerg] 805913#0: unknown directive "search" in /www/server/nginx/conf/nginx.conf:64
+2022/10/06 17:39:11 [warn] 806020#0: conflicting server name "124.220.189.82" on 0.0.0.0:80, ignored
+2022/10/06 17:50:07 [warn] 807686#0: conflicting server name "124.220.189.82" on 0.0.0.0:80, ignored
+2022/10/06 17:50:07 [notice] 807686#0: signal process started
+2022/10/06 17:55:14 [warn] 808443#0: conflicting server name "124.220.189.82" on 0.0.0.0:80, ignored
+2022/10/06 17:55:14 [notice] 808443#0: signal process started
+2022/10/06 17:55:14 [error] 808443#0: open() "/www/server/nginx/logs/nginx.pid" failed (2: No such file or directory)
+2022/10/06 17:55:30 [warn] 808471#0: conflicting server name "124.220.189.82" on 0.0.0.0:80, ignored
+2022/10/06 17:55:30 [notice] 808471#0: signal process started
+2022/10/06 17:55:30 [error] 808471#0: open() "/www/server/nginx/logs/nginx.pid" failed (2: No such file or directory)
+2022/10/06 17:55:50 [warn] 808509#0: conflicting server name "124.220.189.82" on 0.0.0.0:80, ignored
+2022/10/06 17:55:50 [notice] 808509#0: signal process started
+2022/10/06 17:55:50 [error] 808509#0: open() "/www/server/nginx/logs/nginx.pid" failed (2: No such file or directory)
+2022/10/06 17:56:25 [warn] 808610#0: conflicting server name "124.220.189.82" on 0.0.0.0:80, ignored
+2022/10/06 17:56:25 [notice] 808610#0: signal process started
+2022/10/06 17:56:25 [error] 808610#0: open() "/www/server/nginx/logs/nginx.pid" failed (2: No such file or directory)
+2022/10/06 17:56:41 [warn] 808647#0: conflicting server name "124.220.189.82" on 0.0.0.0:80, ignored
+2022/10/06 17:56:41 [notice] 808647#0: signal process started
+2022/10/06 17:56:41 [error] 808647#0: open() "/www/server/nginx/logs/nginx.pid" failed (2: No such file or directory)
+2022/10/06 17:57:05 [emerg] 808714#0: no "events" section in configuration
+2022/10/06 17:57:15 [warn] 808737#0: conflicting server name "124.220.189.82" on 0.0.0.0:80, ignored
+2022/10/06 17:57:15 [notice] 808737#0: signal process started
+2022/10/06 17:57:15 [error] 808737#0: open() "/www/server/nginx/logs/nginx.pid" failed (2: No such file or directory)
+2022/10/06 17:57:25 [emerg] 808758#0: no "events" section in configuration
+2022/10/06 17:57:37 [warn] 808784#0: conflicting server name "124.220.189.82" on 0.0.0.0:80, ignored
+2022/10/06 17:57:37 [notice] 808784#0: signal process started
+2022/10/06 17:57:37 [error] 808784#0: open() "/www/server/nginx/logs/nginx.pid" failed (2: No such file or directory)
+2022/10/06 17:57:56 [notice] 808819#0: signal process started
+2022/10/06 17:57:56 [error] 808819#0: open() "/www/server/nginx/logs/nginx.pid" failed (2: No such file or directory)
+2022/10/06 17:58:20 [notice] 808889#0: signal process started
+2022/10/06 17:58:20 [error] 808889#0: open() "/www/server/nginx/logs/nginx.pid" failed (2: No such file or directory)
+2022/10/06 17:58:49 [notice] 808943#0: signal process started
+2022/10/06 17:58:49 [error] 808943#0: open() "/www/server/nginx/logs/nginx.pid" failed (2: No such file or directory)
+2022/10/06 17:59:59 [notice] 809132#0: signal process started
+2022/10/06 17:59:59 [error] 809132#0: open() "/www/server/nginx/logs/nginx.pid" failed (2: No such file or directory)
+2022/12/30 14:28:38 [notice] 4092810#0: signal process started
+2022/12/30 14:28:38 [error] 4092810#0: invalid PID number "" in "/www/server/nginx/logs/nginx.pid"
