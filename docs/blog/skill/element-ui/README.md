@@ -22,7 +22,7 @@ pickerOptions: {
 },
 ```
 
-![image-20230106172256087](C:/Users/Axjy/AppData/Roaming/Typora/typora-user-images/image-20230106172256087.png)
+![image-20230106172256087](https://imgstorage-1313684358.cos.ap-nanjing.myqcloud.com/img/image-20230106172256087.png)
 
 ### 禁止选择今天及今天之前的时间
 
@@ -34,7 +34,7 @@ pickerOptions: {
       },
 ```
 
-![image-20230106172335884](C:/Users/Axjy/AppData/Roaming/Typora/typora-user-images/image-20230106172335884.png)
+![image-20230106172335884](https://imgstorage-1313684358.cos.ap-nanjing.myqcloud.com/img/image-20230106172335884.png)
 
 ### 禁止选择今天之后的日期
 
@@ -46,7 +46,7 @@ pickerOptions: {
       },
 ```
 
-![image-20230106172359974](C:/Users/Axjy/AppData/Roaming/Typora/typora-user-images/image-20230106172359974.png)
+![image-20230106172359974](https://imgstorage-1313684358.cos.ap-nanjing.myqcloud.com/img/image-20230106172359974.png)
 
 
 

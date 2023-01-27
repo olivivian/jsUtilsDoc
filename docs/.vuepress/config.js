@@ -1,6 +1,6 @@
 module.exports = {
   // 网站的一些基本配置
-  base: './',   // 部署的路径配置（发布解开注释）
+  // base: './',   // 部署的路径配置
   dest: './dist',  // 设置输出目录
   // base:配置部署站点的基础路径，后续再介绍
   title: 'JinDoc', // 网站的标题
@@ -19,10 +19,12 @@ module.exports = {
         text: '框架插件',
         items: [
           { text: 'Element UI', link: '/blog/skill/element-ui/' },
+          { text: 'Vue3', link: '/blog/skill/Vue3/Vue3_生命周期' },
         ]
       },
-      { text: '常用命令', link: '/blog/command/' },
+      { text: '常用命令', link: '/blog/command/nginx' },
       { text: '博客', link: 'https://www.axjy.info' },
+      { text: 'Github', link: 'https://github.com/olivivian' },
     ],
     // sidebar: 'auto'
     sidebarDepth:2,
@@ -42,6 +44,16 @@ module.exports = {
         '/blog/skill/element-ui/':[
           ['','Element UI']
         ],
+        '/blog/skill/Vue3/':[
+          ['Vue3_生命周期','Vue3_生命周期'],
+          ['Vue3_ref和reactive','Vue3_ref和reactive'],
+          ['Vue3_toRef和toRefs','Vue3_toRef和toRefs'],
+          ['Vue3_watch详解','Vue3_watch详解'],
+          ['Vue3_父子组件传值','Vue3_父子组件传值'],
+          ['Vue3_组合API','Vue3_组合API'],
+          ['Vue3_计算属性computed详解','Vue3_计算属性computed详解'],
+          ['Vue的渲染函数render&h','Vue的渲染函数render&h'],
+        ],
         //一个导航栏下多篇文章进行分组
         '/blog/command/': [
           /*{
@@ -55,6 +67,7 @@ module.exports = {
           ['git','git常用命令'],
           ['hexo','hexo常用命令'],
           ['docker','docker常用命令'] //这是单篇文章
+          ['MySQL','MySQL常用命令']
         ]
 
       }
