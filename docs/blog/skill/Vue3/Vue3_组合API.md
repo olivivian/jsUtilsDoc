@@ -2,7 +2,7 @@
 
 先来看一段代码
 
-````
+```
 export default {
 	name:'demo'
 	computed: {}， //设置计算属性
@@ -10,7 +10,7 @@ export default {
 	methods: {}，//定义事件方法
 	watch:{} //设置监听属性
 }
-````
+```
 
 可以看到这是我们vue2中的写法，data中写数据，methods中写函数。
 
@@ -26,7 +26,7 @@ vue3和vue2中有一个很大的区别就是新增了一种`组合式API`的写�
 
 [图片源于网络]
 
-![image-20220130220159175](https://gitee.com/Olivivian/PicGoImages/raw/master/img//Typora/typora-user-images/2022/01/30/image-20220130220159175.png)
+![image-20220130220159175](https://imgstorage-1313684358.cos.ap-nanjing.myqcloud.com/Typora/typora-user-images/2022/01/30/image-20220130220159175.png)
 
 ## setup组件选项
 
@@ -34,27 +34,30 @@ vue3和vue2中有一个很大的区别就是新增了一种`组合式API`的写�
 
 vue3.0的setup写法：
 
-![image-20220130222620977](https://gitee.com/Olivivian/PicGoImages/raw/master/img//Typora/typora-user-images/2022/01/30/image-20220130222620977.png)
+![image-20220130222620977](https://imgstorage-1313684358.cos.ap-nanjing.myqcloud.com/Typora/typora-user-images/2022/01/30/image-20220130222620977.png)
 
 > 变量必须 return 出来，template中才能使用
 
 Vue3.2的setup语法糖：
 
-![image-20220130223424900](https://gitee.com/Olivivian/PicGoImages/raw/master/img//Typora/typora-user-images/2022/01/30/image-20220130223424900.png)
+![image-20220130223424900](https://imgstorage-1313684358.cos.ap-nanjing.myqcloud.com/Typora/typora-user-images/2022/01/30/image-20220130223424900.png)
 
 > 只需要在 script 标签上加上setup属性，里面的代码会被编译成组件 `setup()` 函数的内容，无需return，template可直接使用。
+
+
 
 ### 组件自动注册
 
 在 script setup 中，引入的组件可以直接使用，无需再通过`components`进行注册，并且它会自动以文件名为主，无法指定当前组件的名字。
 
-![image-20220130223812936](https://gitee.com/Olivivian/PicGoImages/raw/master/img//Typora/typora-user-images/2022/01/30/image-20220130223812936.png)
+![image-20220130223812936](https://imgstorage-1313684358.cos.ap-nanjing.myqcloud.com/Typora/typora-user-images/2022/01/30/image-20220130223812936.png)
 
 
 
-### 可以和普通的 <script> 一起使用
+### 可以和普通的 script 一起使用
 
-![image-20220130224107485](https://gitee.com/Olivivian/PicGoImages/raw/master/img//Typora/typora-user-images/2022/01/30/image-20220130224107485.png)
+![image-20220130224107485](https://imgstorage-1313684358.cos.ap-nanjing.myqcloud.com/Typora/typora-user-images/2022/01/30/image-20220130224107485.png)
+
 
 ### 生命周期钩子
 
@@ -80,7 +83,7 @@ Vue3.2的setup语法糖：
 
 ### Vue2和Vue3生命周期钩子对比
 
-![image-20220130232356937](https://gitee.com/Olivivian/PicGoImages/raw/master/img//Typora/typora-user-images/2022/01/30/image-20220130232356937.png)
+![image-20220130232356937](https://imgstorage-1313684358.cos.ap-nanjing.myqcloud.com/Typora/typora-user-images/2022/01/30/image-20220130232356937.png)
 
 
 
@@ -93,7 +96,6 @@ Vue3.2的setup语法糖：
 [script setup](https://v3.cn.vuejs.org/api/sfc-script-setup.html#%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95)
 
 [生命周期钩子](https://v3.cn.vuejs.org/guide/composition-api-lifecycle-hooks.html)
-
 
 
 

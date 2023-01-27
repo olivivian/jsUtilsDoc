@@ -22,11 +22,10 @@ module.exports = {
           { text: 'Vue3', link: '/blog/skill/Vue3/Vue3_生命周期' },
         ]
       },
-      { text: '常用命令', link: '/blog/command/nginx' },
+      { text: '常用命令', link: '/blog/command/' },
       { text: '博客', link: 'https://www.axjy.info' },
       { text: 'Github', link: 'https://github.com/olivivian' },
     ],
-    // sidebar: 'auto'
     sidebarDepth:2,
     sidebar:
       {
@@ -46,11 +45,11 @@ module.exports = {
         ],
         '/blog/skill/Vue3/':[
           ['Vue3_生命周期','Vue3_生命周期'],
+          ['Vue3_组合API','Vue3_组合API'],
           ['Vue3_ref和reactive','Vue3_ref和reactive'],
           ['Vue3_toRef和toRefs','Vue3_toRef和toRefs'],
           ['Vue3_watch详解','Vue3_watch详解'],
           ['Vue3_父子组件传值','Vue3_父子组件传值'],
-          ['Vue3_组合API','Vue3_组合API'],
           ['Vue3_计算属性computed详解','Vue3_计算属性computed详解'],
           ['Vue的渲染函数render&h','Vue的渲染函数render&h'],
         ],
@@ -66,10 +65,9 @@ module.exports = {
           ['nginx','nginx常用命令'],
           ['git','git常用命令'],
           ['hexo','hexo常用命令'],
-          ['docker','docker常用命令'] //这是单篇文章
-          ['MySQL','MySQL常用命令']
+          ['docker','docker常用命令'],
+          ['MySQL', 'MySQL常用命令']
         ]
-
       }
   },
 }

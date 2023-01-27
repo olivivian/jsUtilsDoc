@@ -90,7 +90,7 @@ h('标签元素','标签属性',[标签文本内容]);
 
 示例：
 
-![image-20220225204445924](https://gitee.com/Olivivian/PicGoImages/raw/master/img//Typora/typora-user-images/2022/02/25/image-20220225204445924.png)
+![image-20220225204445924](https://imgstorage-1313684358.cos.ap-nanjing.myqcloud.com/Typora/typora-user-images/2022/02/25/image-20220225204445924.png)
 
 参考资料：
 

@@ -14,13 +14,13 @@
 
 但是这个时候会有个问题，这个num是非响应式的。即num动态改变之后，界面上还是一直显示的初始值0。可以做一个简单的测试
 
-![image-20220131203308448](https://gitee.com/Olivivian/PicGoImages/raw/master/img//Typora/typora-user-images/2022/01/31/image-20220131203308448.png)
+![image-20220131203308448](https://imgstorage-1313684358.cos.ap-nanjing.myqcloud.com/img/image-20220131203308448.png)
 
 效果：
 
 可以看到，当num值改变时，视图并没有跟着更新。
 
-![](https://gitee.com/Olivivian/PicGoImages/raw/master/img//Gif/220122%E6%96%B0%E5%B9%B4%E6%B4%BB%E5%8A%A8/2022/01/31/demo1.gif)
+![](https://imgstorage-1313684358.cos.ap-nanjing.myqcloud.com/Gif/220122%E6%96%B0%E5%B9%B4%E6%B4%BB%E5%8A%A8/2022/01/31/demo1.gif)
 
 # ref
 
@@ -44,7 +44,7 @@
 
 使用之后的效果：
 
-![](https://gitee.com/Olivivian/PicGoImages/raw/master/img//Gif/220122%E6%96%B0%E5%B9%B4%E6%B4%BB%E5%8A%A8/2022/01/31/demo2.gif)
+![](https://imgstorage-1313684358.cos.ap-nanjing.myqcloud.com/Gif/220122%E6%96%B0%E5%B9%B4%E6%B4%BB%E5%8A%A8/2022/01/31/demo2.gif)
 
 
 
@@ -60,21 +60,21 @@
 
 我们上面通过`ref`为基础类型的数据创建了响应式，那么如果是一个对象或者数组呢？ref同样适用，可以通过示例来看下
 
-![image-20220131215651536](https://gitee.com/Olivivian/PicGoImages/raw/master/img//Typora/typora-user-images/2022/01/31/image-20220131215651536.png)
+![image-20220131215651536](https://imgstorage-1313684358.cos.ap-nanjing.myqcloud.com/img/image-20220131215651536.png)
 
 ​	结果展示：
 
-![](https://gitee.com/Olivivian/PicGoImages/raw/master/img//Gif/220122%E6%96%B0%E5%B9%B4%E6%B4%BB%E5%8A%A8/2022/01/31/demo3.gif)
+![](https://imgstorage-1313684358.cos.ap-nanjing.myqcloud.com/Gif/220122%E6%96%B0%E5%B9%B4%E6%B4%BB%E5%8A%A8/2022/01/31/demo3.gif)
 
 结果对比：
 
-![image-20220131220018323](https://gitee.com/Olivivian/PicGoImages/raw/master/img//Typora/typora-user-images/2022/01/31/image-20220131220018323.png)
+![image-20220131220018323](https://imgstorage-1313684358.cos.ap-nanjing.myqcloud.com/img/image-20220131220018323.png)
 
 # reactive
 
 虽然不论是基础类型`string,number`，还是复杂引用类型`array，object`都可以用`ref`来定义，但是定义对象的话，通常会使用`reactive`来实现。
 
-![image-20220131220725540](https://gitee.com/Olivivian/PicGoImages/raw/master/img//Typora/typora-user-images/2022/01/31/image-20220131220725540.png)
+![image-20220131220725540](https://imgstorage-1313684358.cos.ap-nanjing.myqcloud.com/Typora/typora-user-images/2022/01/31/image-20220131220725540.png)
 
 # ref与reactive的区别与联系
 
@@ -83,7 +83,7 @@
 - ref定义数据时，会对里面的数据类型进行一层判断，当遇到复杂的引用类型时,还是会使用`reactive`来处理。
 - 可以用ref定义对象数组等，但是如果用`reactive`来定义基本类型会被警告。
 
-![image-20220131221203422](https://gitee.com/Olivivian/PicGoImages/raw/master/img//Typora/typora-user-images/2022/01/31/image-20220131221203422.png)
+![image-20220131221203422](https://imgstorage-1313684358.cos.ap-nanjing.myqcloud.com/Typora/typora-user-images/2022/01/31/image-20220131221203422.png)
 
 
 

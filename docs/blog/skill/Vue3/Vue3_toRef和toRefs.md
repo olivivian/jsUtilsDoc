@@ -25,21 +25,21 @@ toRef
 
 那这有什么问题呢？我们先来测一个很普通的写法
 
-![image-20220201205124987](https://gitee.com/Olivivian/PicGoImages/raw/master/img//Typora/typora-user-images/2022/02/01/image-20220201205124987.png)
+![image-20220201205124987](https://imgstorage-1313684358.cos.ap-nanjing.myqcloud.com/Typora/typora-user-images/2022/02/01/image-20220201205124987.png)
 
 我们对对象的属性值进行动态的改变，从效果图可以看到，一切看起来都很**正常**。（不论是视图上还是控制台里值都正常更新）
 
 ![](D:\00-2020-2019\Gif\220122新年活动\demo4.gif)
 
-![](https://gitee.com/Olivivian/PicGoImages/raw/master/img//Gif/220122%E6%96%B0%E5%B9%B4%E6%B4%BB%E5%8A%A8/2022/02/01/demo4.gif)
+![](https://imgstorage-1313684358.cos.ap-nanjing.myqcloud.com/Gif/220122%E6%96%B0%E5%B9%B4%E6%B4%BB%E5%8A%A8/2022/02/01/demo4.gif)
 
 那现在我们来对以上的代码做一点点的改动，把对象属性的值先赋给一个变量，在进行操作。
 
-![image-20220201212509251](https://gitee.com/Olivivian/PicGoImages/raw/master/img//Typora/typora-user-images/2022/02/01/image-20220201212509251.png)
+![image-20220201212509251](https://imgstorage-1313684358.cos.ap-nanjing.myqcloud.com/Typora/typora-user-images/2022/02/01/image-20220201212509251.png)
 
 这个时候，再来看运行效果会发现，**问题出现了**，除了我们新赋值的变量值有改变之外，视图和原值都没有更新。
 
-![](https://gitee.com/Olivivian/PicGoImages/raw/master/img//Gif/220122%E6%96%B0%E5%B9%B4%E6%B4%BB%E5%8A%A8/2022/02/01/demo5.gif)
+![](https://imgstorage-1313684358.cos.ap-nanjing.myqcloud.com/Gif/220122%E6%96%B0%E5%B9%B4%E6%B4%BB%E5%8A%A8/2022/02/01/demo5.gif)
 
 # toRef的作用
 
@@ -62,17 +62,17 @@ toRef
 
 这个时候，不论是视图，原值，还是赋值的变量值都保持实时更新了。
 
-![](https://gitee.com/Olivivian/PicGoImages/raw/master/img//Gif/220122%E6%96%B0%E5%B9%B4%E6%B4%BB%E5%8A%A8/2022/02/01/demo6.gif)
+![](https://imgstorage-1313684358.cos.ap-nanjing.myqcloud.com/Gif/220122%E6%96%B0%E5%B9%B4%E6%B4%BB%E5%8A%A8/2022/02/01/demo6.gif)
 
 # ref和toRef
 
 toRef的定义中说：`可以用来为源响应式对象上的某个 property 新创建一个 ref`。那我们直接用`ref`行不行，可以来试试
 
-![image-20220201214108417](https://gitee.com/Olivivian/PicGoImages/raw/master/img//Typora/typora-user-images/2022/02/01/image-20220201214108417.png)
+![image-20220201214108417](https://imgstorage-1313684358.cos.ap-nanjing.myqcloud.com/Typora/typora-user-images/2022/02/01/image-20220201214108417.png)
 
 运行效果：可以看到，如果使用ref，只是让赋值的变量自己保持了响应，但是原来的对象值不会改变。
 
-![](https://gitee.com/Olivivian/PicGoImages/raw/master/img//Gif/220122%E6%96%B0%E5%B9%B4%E6%B4%BB%E5%8A%A8/2022/02/01/demo7.gif)
+![](https://imgstorage-1313684358.cos.ap-nanjing.myqcloud.com/Gif/220122%E6%96%B0%E5%B9%B4%E6%B4%BB%E5%8A%A8/2022/02/01/demo7.gif)
 
 **ref和toRef的区别**
 
